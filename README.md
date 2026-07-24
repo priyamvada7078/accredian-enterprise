@@ -23,15 +23,32 @@
 
 
 
-# 📸 Screenshots
 
-Replace these placeholders after deployment.
+## 📸 Project Preview
 
-- 🖥️ Desktop View
-- 📱 Mobile View
-- 🎯 Hero Section
-- ⭐ Features Section
-- 📊 Lighthouse Report
+### 🏠 Home Page
+
+<p align="center">
+  <img src="screenshots/home.png" alt="Home Page" width="100%">
+</p>
+
+---
+
+### 📱 Mobile View
+
+<p align="center">
+  <img src="screenshots/mobile-view.png" alt="Mobile View" width="35%">
+</p>
+
+---
+
+### 🌙 Dark Mode
+
+<p align="center">
+  <img src="screenshots/dark-mode.png" alt="Dark Mode" width="100%">
+</p>
+
+---
 
 
 
@@ -200,7 +217,11 @@ Every AI-generated suggestion was manually reviewed, refined, integrated, and te
 
 # 📊 Lighthouse
 
-Add your Lighthouse screenshot after deployment.
+### 📊 Lighthouse Report
+
+<p align="center">
+  <img src="screenshots/lighthouse-report.png" alt="Lighthouse Report" width="80%">
+</p>
 
 Target:
 
