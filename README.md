@@ -1,165 +1,110 @@
-# 🚀 Accredian Enterprise Landing Page
+#  Accredian Enterprise Landing Page
 
-A modern, responsive implementation of the **Accredian Enterprise** landing page built using **Next.js**, **React**, and **Tailwind CSS** as part of the **Accredian Full Stack Developer Internship Assessment**.
+> Modern, responsive implementation of the **Accredian Enterprise Landing Page** built with **Next.js**, **React**, and **Tailwind CSS** for the **Accredian Full Stack Developer Internship Assessment**.
 
-The project recreates the overall structure and user experience of the reference website while emphasizing reusable components, responsive design, maintainable architecture, and modern frontend development practices.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,javascript,git,github,vercel,vscode" />
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js"/>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?style=for-the-badge&logo=tailwind-css"/>
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel"/>
+</p>
+
+
 
 ## 🌐 Live Demo
-
-🔗 https://YOUR-VERCEL-LINK.vercel.app
-
----
+> https://accredian-enterprise-ruby.vercel.app/
 
 ## 💻 GitHub Repository
+> https://github.com/priyamvada7078/accredian-enterprise
 
-🔗 https://github.com/YOUR-USERNAME/accredian-enterprise
 
----
 
-# 📸 Project Preview
+# 📸 Screenshots
 
-> Replace the placeholders below with screenshots after deployment.
+Replace these placeholders after deployment.
 
-## 🖥️ Desktop View
+- 🖥️ Desktop View
+- 📱 Mobile View
+- 🎯 Hero Section
+- ⭐ Features Section
+- 📊 Lighthouse Report
 
-<!-- Add Desktop Screenshot -->
 
----
-
-## 📱 Mobile View
-
-<!-- Add Mobile Screenshot -->
-
----
-
-## 🎯 Hero Section
-
-<!-- Add Hero Screenshot -->
-
----
-
-## ⭐ Features Section
-
-<!-- Add Features Screenshot -->
-
----
-
-## 📊 Lighthouse Report
-
-<!-- Add Lighthouse Screenshot -->
-
----
 
 # ✨ Features
 
-- Responsive design for desktop, tablet, and mobile devices
-- Built using Next.js App Router
-- Reusable component-based architecture
-- Modern UI with Tailwind CSS
-- Glassmorphism navigation bar
-- Smooth scrolling navigation
-- Interactive cards and hover effects
-- Animated statistics
+- Responsive layout
+- Next.js App Router
+- Reusable React components
+- Tailwind CSS
 - Framer Motion animations
-- Partner showcase section
-- FAQ accordion
-- Testimonials section
-- Contact CTA
+- Glassmorphism Navbar
+- Smooth scrolling
+- Animated statistics
+- FAQ section
+- Partner showcase
+- Testimonials
 - Next.js API Routes
-- Optimized images using `next/image`
-- Semantic HTML and accessibility improvements
-- Ready for deployment on Vercel
+- Optimized images
+- SEO-friendly structure
+- Vercel ready
 
----
+
 
 # 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
-| Next.js (App Router) | React Framework |
-| React | UI Library |
-| JavaScript | Programming Language |
+| Next.js | React Framework |
+| React | UI |
+| JavaScript | Programming |
 | Tailwind CSS | Styling |
 | Framer Motion | Animations |
 | React Icons | Icons |
-| React CountUp | Animated Statistics |
-| Next.js API Routes | Mock Backend APIs |
+| Next.js API Routes | Mock APIs |
 | Vercel | Deployment |
 
----
+
 
 # 📂 Project Structure
 
 ```text
 app/
-│
 ├── api/
-│   ├── contact/
-│   └── testimonials/
-│
 ├── components/
-│   ├── cards/
 │   ├── common/
+│   ├── cards/
 │   ├── layout/
-│   ├── sections/
-│
+│   └── sections/
 ├── constants/
-│
+├── hooks/
+├── lib/
 ├── public/
 │   ├── images/
-│   ├── logos/
-│   └── icons/
-│
+│   └── logos/
 ├── globals.css
 ├── layout.js
 └── page.js
 ```
 
-### Folder Overview
 
-| Folder | Purpose |
-|---------|----------|
-| components/common | Shared UI components such as buttons, badges, containers |
-| components/layout | Navbar and Footer |
-| components/cards | Reusable card components |
-| components/sections | Individual landing page sections |
-| constants | Static data used throughout the application |
-| api | Mock API routes |
-| public | Images, logos and static assets |
-
----
 
 # ⚙️ Installation
 
-Clone the repository
-
 ```bash
 git clone https://github.com/YOUR-USERNAME/accredian-enterprise.git
-```
-
-Move into the project
-
-```bash
 cd accredian-enterprise
-```
-
-Install dependencies
-
-```bash
 npm install
-```
-
-Start the development server
-
-```bash
 npm run dev
-```
 
-Open
 
-```
+Open:
+
+
 http://localhost:3000
 ```
 
@@ -167,179 +112,141 @@ http://localhost:3000
 
 # 🏗 Development Approach
 
-Rather than creating a strict pixel-perfect clone, the goal was to recreate the overall structure, visual hierarchy, and user experience of the original website while improving code organization and maintainability.
+The objective was to recreate the structure and user experience of the original landing page while improving maintainability through reusable components, responsive design, and clean project organization.
 
-Key principles followed throughout development include:
+Focus areas:
 
-- Reusable React components
-- Modular architecture
-- Responsive-first design
-- Separation of concerns
-- Maintainable folder structure
-- Consistent design system
-- Accessible markup
-- Performance-conscious implementation
+- Component-driven architecture
+- Responsive-first development
+- Accessibility
+- Performance
+- Modular code
+- Clean folder organization
 
 ---
 
-# 🎨 UI & UX Enhancements
+# 🎨 UI Enhancements
 
-The implementation includes several improvements while preserving the original look and feel.
-
-Highlights include:
-
-- Improved typography and spacing
+- Better typography
+- Consistent spacing
 - Glassmorphism navigation
-- Responsive layouts
-- Consistent design language
-- Interactive hover effects
-- Smooth transitions
+- Smooth hover effects
 - Framer Motion animations
-- Better visual hierarchy
-- Optimized image rendering
-- Reusable UI components
+- Modern cards
+- Improved responsiveness
+- Optimized images
 
----
 
-# 🔌 API Integration
+# 🔌 API Routes
 
-Mock backend functionality is implemented using **Next.js API Routes**.
+## `/api/contact`
 
-### Contact API
+Mock endpoint for contact submissions.
 
-```
-/api/contact
-```
+## `/api/testimonials`
 
-Returns a mock success response for contact form submissions.
+Returns sample testimonial data.
 
-### Testimonials API
 
-```
-/api/testimonials
-```
 
-Returns sample testimonial data consumed by the frontend.
+# 🤖 Responsible AI Usage
 
----
+AI tools were used as development assistants.
 
-# 🤖 AI Usage
-
-This assignment explicitly encourages the responsible use of AI tools. AI was used as a development assistant to accelerate implementation while maintaining full ownership of the final solution.
-
-### AI Tools Used
+### Tools
 
 - ChatGPT
 - Claude
 
-### AI Assisted With
+### AI helped with
 
-- Project planning
+- Planning
 - Component architecture
-- Folder organization
-- UI/UX brainstorming
-- Boilerplate generation
-- Responsive layout suggestions
-- Animation ideas
-- Debugging assistance
-- Code review
-- Refactoring suggestions
+- Boilerplate
+- UI brainstorming
+- Debugging
+- Refactoring
 
----
+### Manual contribution
+
+Every AI-generated suggestion was manually reviewed, refined, integrated, and tested before inclusion.
+
 
 # 👨‍💻 My Contributions
 
-Although AI tools accelerated parts of the development process, the final implementation involved substantial manual work.
+- Designed project architecture
+- Built reusable components
+- Implemented responsive layouts
+- Improved accessibility
+- Added animations
+- Integrated mock APIs
+- Debugged issues
+- Tested across devices
+- Deployed on Vercel
 
-My contributions include:
 
-- Designing the project architecture
-- Building reusable React components
-- Organizing the folder structure
-- Integrating all page sections
-- Refining AI-generated code
-- Implementing responsive layouts
-- Improving accessibility
-- Adding animations and interactions
-- Testing across multiple screen sizes
-- Debugging build/runtime issues
-- Configuring mock API routes
-- Deploying the application on Vercel
-
-Every generated code snippet was reviewed, modified where necessary, integrated manually, and tested before inclusion in the final project.
-
----
 
 # 🚀 Future Improvements
 
-With additional development time, I would consider implementing:
-
-- Backend database integration
 - Authentication
-- CMS integration
-- Lead management dashboard
-- Form validation with Zod
-- Dark mode toggle
-- Internationalization (i18n)
-- Unit testing
-- End-to-end testing
-- Performance optimization
-- Analytics integration
+- Backend integration
+- CMS
+- Zod validation
+- Unit & E2E testing
+- Analytics
+- Internationalization
 
----
 
-# 📈 Performance
 
-The project is designed with the following goals:
+# 📊 Lighthouse
 
-- Responsive across modern devices
-- Modular and maintainable architecture
-- Optimized rendering
-- SEO-friendly structure
-- Accessible UI
-- Smooth animations
-- Fast loading experience
+Add your Lighthouse screenshot after deployment.
 
----
+Target:
+
+- 🚀 Performance: 90+
+- ♿ Accessibility: 95+
+- ✅ Best Practices: 95+
+- 🔍 SEO: 100
+
+
 
 # 🌍 Deployment
 
-The application is deployed using **Vercel**.
-
-To deploy your own version:
+Deploy using Vercel:
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-Or simply import the GitHub repository into Vercel.
+Or import the GitHub repository into Vercel.
 
----
+
 
 # 📄 License
 
-This project was created solely for the **Accredian Full Stack Developer Internship Assessment**.
+Created exclusively for the **Accredian Full Stack Developer Internship Assessment**.
 
-The original design inspiration belongs to **Accredian**.
+Original design inspiration belongs to Accredian.
 
-This implementation is an independent educational recreation created for evaluation purposes only and is not affiliated with or endorsed by Accredian.
 
----
 
 # 🙏 Acknowledgements
 
-- Accredian for providing the assessment
-- Next.js Team
-- Vercel
-- React Community
+- Accredian
+- Next.js
+- React
 - Tailwind CSS
 - Framer Motion
+- Vercel
 
----
 
-## ⭐ Thank You
 
-Thank you for taking the time to review this submission.
+<p align="center">
 
-This project reflects my approach to building maintainable, responsive, and component-driven frontend applications using modern web technologies and AI-assisted development practices.
+### ⭐ Thank you for reviewing my submission!
+
+Built with ❤️ using Next.js, React & Tailwind CSS.
+
+</p>
