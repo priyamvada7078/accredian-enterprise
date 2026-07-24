@@ -37,7 +37,8 @@
 ### 📱 Mobile View
 
 <p align="center">
-  <img src="screenshots/mobile-view.png" alt="Mobile View" width="50%">
+  <img src="screenshots/mobile-view.png" alt="Mobile View" width="250">
+</p>">
 </p>
 
 ---
