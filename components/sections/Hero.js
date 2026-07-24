@@ -99,8 +99,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="absolute -right-4 top-6 rounded-2xl border border-gray-100 bg-white/90 p-4 shadow-lift backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/90 sm:-right-8"
           >
-            <p className="text-xl font-bold text-brand-600 dark:text-brand-400">15+</p>
-            <p className="text-xs text-ink-400 dark:text-gray-400">University partners</p>
+            
           </motion.div>
         </motion.div>
       </Container>
